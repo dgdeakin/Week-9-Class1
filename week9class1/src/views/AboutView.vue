@@ -25,6 +25,8 @@
     </RouterLink>
 
     <button @click="router.push('/routers')">To Router Page</button>
+
+    <button @click="router.push('/about/100/children')">Children</button>
   </div>
 
   <RouterView />
